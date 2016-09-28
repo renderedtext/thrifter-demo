@@ -11,7 +11,7 @@ struct Status {
 
 struct Result {
   1: Status status
-  2: Complex res
+  2: Complex result
 }
 
 service Test {

@@ -5,4 +5,4 @@
   "mock": {:git, "https://github.com/jjh42/mock.git", "13c3b40f0e849c018e6b8afbc9d7da899cf4db1b", []},
   "riffed": {:git, "git@github.com:renderedtext/riffed", "f7d772753236d6c52ba685cf49e501e9b7c930b0", [ref: "origin/master"]},
   "thrift": {:git, "https://github.com/pinterest/elixir-thrift.git", "9c3871cc9568eaf23c701ae11dece7bb5790b8ab", [tag: "1.0.0", submodules: true]},
-  "thrifter": {:git, "git@github.com:renderedtext/thrifter", "14ad3dc259e15c23c21efa2555931aed2f46bda4", [ref: "origin/master"]}}
+  "thrifter": {:git, "git@github.com:renderedtext/thrifter", "2d9b18a99883d37473d375c4aa7ea688096e7119", [ref: "origin/pr/elixir"]}}

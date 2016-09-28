@@ -19,9 +19,9 @@ defmodule ThrifterDemo.Mixfile do
 
   defp deps do
     [
-#      {:thrifter, git: "git@github.com:renderedtext/thrifter",
-#        ref: "origin/master"},
-      {:thrifter, path: "../thrifter"},
+      {:thrifter, git: "git@github.com:renderedtext/thrifter",
+        ref: "origin/pr/elixir"},
+#      {:thrifter, path: "../thrifter"},
     ]
   end
 end

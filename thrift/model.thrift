@@ -1,5 +1,4 @@
 
-
 struct Complex {
   1: i16 r
   2: i16 i

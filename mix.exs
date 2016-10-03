@@ -3,7 +3,7 @@ defmodule ThrifterDemo.Mixfile do
 
   def project do
     [app: :thrifter_demo,
-     version: "0.0.1",
+     version: "0.0.6",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -13,7 +13,7 @@ defmodule ThrifterDemo.Mixfile do
   end
 
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :thrifter, ],
      mod: {ThrifterDemo, []}]
   end
 

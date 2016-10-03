@@ -3,6 +3,6 @@
   "lager": {:git, "https://github.com/basho/lager.git", "bce5504a955e52be8d5cf4b3c6b1fcd898ab5756", []},
   "meck": {:hex, :meck, "0.8.4", "59ca1cd971372aa223138efcf9b29475bde299e1953046a0c727184790ab1520", [:rebar, :make], []},
   "mock": {:git, "https://github.com/jjh42/mock.git", "13c3b40f0e849c018e6b8afbc9d7da899cf4db1b", []},
-  "riffed": {:git, "git@github.com:renderedtext/riffed", "f7d772753236d6c52ba685cf49e501e9b7c930b0", [ref: "origin/master"]},
+  "riffed": {:git, "https://github.com/renderedtext/riffed.git", "f7d772753236d6c52ba685cf49e501e9b7c930b0", [ref: "origin/master"]},
   "thrift": {:git, "https://github.com/pinterest/elixir-thrift.git", "9c3871cc9568eaf23c701ae11dece7bb5790b8ab", [tag: "1.0.0", submodules: true]},
-  "thrifter": {:git, "git@github.com:renderedtext/thrifter", "2d9b18a99883d37473d375c4aa7ea688096e7119", [ref: "origin/pr/elixir"]}}
+  "thrifter": {:git, "https://github.com/renderedtext/thrifter.git", "c67eb88882dcf2288244b2fca9db3aa6ba4c3846", [ref: "origin/master"]}}

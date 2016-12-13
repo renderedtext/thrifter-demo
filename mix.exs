@@ -20,6 +20,7 @@ defmodule ThrifterDemo.Mixfile do
   defp deps do
     [
       {:thrifter, github: "renderedtext/thrifter", ref: "origin/master"},
+#      {:thrifter, path: "../thrifter"},
     ]
   end
 end

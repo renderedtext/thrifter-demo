@@ -9,6 +9,7 @@ defmodule ThrifterDemo do
     children = [
       # Define workers and child supervisors to be supervised
       worker(ThrifterDemo.Daemon, []),
+      ThrifterDemo.HttpTransport.Server.child_spec(port: 2999),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

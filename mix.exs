@@ -32,6 +32,7 @@ defmodule ThrifterDemo.Mixfile do
       {:thrifter, github: "renderedtext/thrifter", ref: "origin/master"},
 #      {:thrifter, path: "../thrifter"},
       {:thrifter_demo_generated_client, git: "git@github.com:renderedtext/thrifter-demo-generated-client.git", only: @use_generated_client},
+      {:distillery, "~> 1.0"},
     ]
   end
 end

@@ -1,0 +1,20 @@
+FROM ubuntu:14.04
+MAINTAINER Rendered Text "devops@renderedtext.com"
+
+RUN useradd demo
+
+RUN mkdir -p /home/app
+
+# Install make
+RUN apt-get update; apt-get install -y make
+
+# Add the app
+COPY Makefile /home/app/Makefile
+COPY rel/thrifter_demo.tar.gz /tmp/app.tar.gz
+RUN tar xf /tmp/app.tar.gz -C /home/app/
+RUN chown -R demo /home/app
+
+WORKDIR /home/app
+
+CMD make container.run
+

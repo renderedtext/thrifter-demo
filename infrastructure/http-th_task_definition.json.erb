@@ -1,0 +1,33 @@
+{
+  "containerDefinitions": [
+    {
+      "volumesFrom": [
+
+      ],
+      "memory": 300,
+      "cpu": 0,
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 800,
+          "containerPort": 2999,
+          "protocol": "tcp"
+        }
+      ],
+      "mountPoints": [
+
+      ],
+      "name": "thrifter-demo",
+      "environment": <%= Inframan::S3.fetch('s3://renderedtext-secrets/ecs/http-th/thrifter-demo/environment.json') %>,
+      "image": "<%= Inframan::Config.configuration['ecr_docker_remote'] %>/renderedtext/thrifter-demo:<%= Inframan::Git.commit_sha %>",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/http-th/thrifter-demo",
+          "awslogs-region": "us-east-1"
+        }
+      }
+    }
+  ],
+  "family": "http-th-thrifter-demo-tasks"
+}

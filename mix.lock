@@ -20,7 +20,7 @@
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], []},
   "thrift": {:hex, :thrift, "1.3.2", "307e1bbb896afa9726ded9edf4a6dfa216f46562b25b173e200a3d381d8af230", [:mix], []},
   "thrift_serializer": {:git, "https://github.com/renderedtext/ex-thrift-serializer.git", "06188176367e0f86373185cea6dbd22b419c44f7", []},
-  "thrifter": {:git, "https://github.com/renderedtext/thrifter.git", "489c58757a6e9da23c5e3ac0834ef2241a2d0b1a", [ref: "origin/master"]},
-  "thrifter_demo_generated_client": {:git, "git@github.com:renderedtext/thrifter-demo-generated-client.git", "1e3d225e8ca110defafc2f9529a8181183a39009", []},
-  "thttpt": {:git, "git@github.com:renderedtext/ex-thttpt.git", "c1631089e66a05a7197875999f425d7a81372e4d", []},
+  "thrifter": {:git, "https://github.com/renderedtext/thrifter.git", "5a0191fe3f5fe4171e2778387d832cb04d9ccbe2", [ref: "origin/master"]},
+  "thrifter_demo_generated_client": {:git, "git@github.com:renderedtext/thrifter-demo-generated-client.git", "cac93d3bb94f24e613dfb9bb4adf63fce8ac4dd2", []},
+  "thttpt": {:git, "git@github.com:renderedtext/ex-thttpt.git", "16a71a5620ca0456d86405fdcb6aeb294a28fad5", []},
   "uuid": {:hex, :uuid, "1.1.5", "96cb36d86ee82f912efea4d50464a5df606bf3f1163d6bdbb302d98474969369", [:mix], []}}

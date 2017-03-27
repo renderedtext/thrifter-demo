@@ -5,6 +5,9 @@ defmodule Test.ThriftHttpTransport do
   setup_all do
     Application.put_env(:thrifter_demo_generated_client, :host, "localhost")
     Application.put_env(:thrifter_demo_generated_client, :port, 2999)
+    Application.put_env(:thrifter_demo_generated_client, :tls, :disabled)
+#     Application.put_env(:thrifter_demo_generated_client, :host, "a.semaphoreci.com")
+#     Application.put_env(:thrifter_demo_generated_client, :port, 443)
   end
 
   test "function call" do
